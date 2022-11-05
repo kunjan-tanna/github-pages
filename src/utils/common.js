@@ -4,7 +4,7 @@ import { displayLog } from "./functions";
 export const apiCall = async (method, url, reqData, params) => {
    // let token = "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";
    let token =
-      "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";
+      "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";
    return axios({
       method: method,
       url: url,
