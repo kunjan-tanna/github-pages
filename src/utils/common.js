@@ -25,6 +25,6 @@ export const apiCall = async (method, url, reqData, params) => {
       })
       .catch(async (error) => {
          console.log("\n\n\n ERROR :::", error.message);
-         displayLog(0, error.message);
+         // displayLog(0, error.message);
       });
 };

@@ -31,13 +31,17 @@ function App() {
       getUserRepo();
    }, [userRepoName]);
 
+   //HandleInput for Username
    const handleChange = (username) => {
       setUsername(username);
    };
+
+   //HandleInput for Repo
    const handleChangeRepo = (userRepo) => {
       setUserRepoName(userRepo);
    };
 
+   //Get the user Data
    const getUserData = async () => {
       let res = await apiCall("GET", `users/${username}`);
       console.log("RESS", res);
@@ -45,6 +49,7 @@ function App() {
       setLoading(false);
    };
 
+   //Get the repo per user
    const getUserRepo = async () => {
       if (username !== "") {
          let res = await apiCall(
