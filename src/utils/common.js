@@ -3,7 +3,7 @@ import { displayLog } from "./functions";
 
 export const apiCall = async (method, url, reqData, params) => {
    // let token = "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";
-   let token = "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";
+   let token = "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";
    return axios({
       method: method,
       url: url,
