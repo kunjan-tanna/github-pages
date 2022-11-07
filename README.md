@@ -1,4 +1,4 @@
-# GitHub Structure
+# Display Repository and User
 
 In the project directory, you can run:
 

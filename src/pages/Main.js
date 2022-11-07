@@ -2,8 +2,8 @@ import { Box, Card, Grid, Typography } from "@mui/material";
 import moment from "moment/moment";
 import React from "react";
 import Loader from "../utils/Loader";
-import Repo from "./Repo";
-import SearchBoxUser from "./SearchBoxUser";
+import Repo from "../components/Repo";
+import SearchBoxUser from "../components/SearchBoxUser";
 
 function Main(props) {
    const { userData, userRepo, handleChange, handleChangeRepo, loading } =
